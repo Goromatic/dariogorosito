@@ -1,0 +1,66 @@
+*{margin: 0;
+padding: 0;}
+
+.h1 {
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*estilo de pagina para h1*/
+
+div {
+width:400px; height:150px;
+background-color:crimson;
+border: 4px dotted;
+margin:40px;
+display: inline-table;
+text-align: center;
+}
+div p{
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    color:lightsalmon
+
+}
+
+
+
+.azul {
+    width: 750px;
+    height:750px;
+    background-color: blue;
+    font-size: xx-large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+
+ } 
+
+.rojo{
+    background-color:red;
+    
+}
+
+.verde{
+    background-color: green;
+}
+
+.gris{ 
+    background-color: grey;
+}
+
+.negritas{
+    font-weight: bolder;
+    font-size: x-large;
+    color: blue;
+}
+
+.cursivas{
+    font-style: italic;
+    font-size: x-large;
+    color:brown
+
+}
+
+/*Corresponde a tarea clase 4*/
