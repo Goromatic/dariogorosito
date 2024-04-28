@@ -63,4 +63,17 @@ div p{
 
 }
 
-/*Corresponde a tarea clase 4*/
+.cabeza{
+    background-color: yellowgreen;
+    height: max-content;
+    size: 700px;
+    width: 100%;
+
+}
+
+.piso{
+    background-color: yellowgreen;
+    height: 200px;
+    width: 100%;
+   
+}
