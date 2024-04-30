@@ -78,3 +78,10 @@ div p{
    
 }
 /*corresponde a tarea 5*/
+
+ul{
+    display:flex;
+    flex-direction: row;
+
+}
+
