@@ -1,3 +1,9 @@
+
+
+.gris {
+    background-color:grey;
+}
+
 *{margin: 0;
 padding: 0;}
 
@@ -66,7 +72,7 @@ div p{
 .cabeza{
     background-color: yellowgreen;
     height: max-content;
-    size: 700px;
+    size: 200;
     width: 100%;
 
 }
@@ -75,7 +81,7 @@ div p{
     background-color: yellowgreen;
     height: 200px;
     width: 100%;
-   
+  
 }
 /*corresponde a tarea 5*/
 
@@ -94,5 +100,31 @@ p{
 
 }
 
+.contenedor {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    background-color: black;
+   
 
+}
 
+.boxes{
+    display:grid;
+    grid-template-columns: repeat(3,lfr);
+    grid-auto-rows: 100px;
+    color: blueviolet;
+    background-color: aquamarine;
+}
+
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start:  1;
+    grid-row-end: 3;
+}
+
+.box2{
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
